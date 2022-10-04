@@ -1,0 +1,7 @@
+#include <stdio.h>
+int main() 
+{
+printf("Hello Github !");
+// this is a comment used for explaination , comments arent a part of code 
+return 0;
+}
