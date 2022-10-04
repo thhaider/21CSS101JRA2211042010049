@@ -3,7 +3,7 @@
 int main() {
   int x = 100;
   int y = 10;
-  int sum = x / y;
-  printf("%d", sum);
+  int divide = x / y;
+  printf("%d", divide);
   return 0;
 }
