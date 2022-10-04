@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+  char userid [] = "thhaider!";
+  printf("%s", userid);
+ 
+  return 0;
+}
