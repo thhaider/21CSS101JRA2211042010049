@@ -1,0 +1,7 @@
+int main()
+{
+
+printf("Hello World!\n");
+printf("I am writing 100 Programmes");
+return 0;
+}
