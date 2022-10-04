@@ -3,7 +3,7 @@
 int main() {
   int x = 10;
   int y = -10;
-  int sum = x * y;
-  printf("%d", sum);
+  int multiply = x * y;
+  printf("%d", multiply);
   return 0;
 }
