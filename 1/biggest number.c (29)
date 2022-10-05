@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+float main() 
+{
+   float a,b;
+   printf("enter two numbers;");
+   scanf("%f %f",&a,&b);
+   if(a>b)
+   printf("the biggest among the numbers is %f",a);
+   else
+   printf("the biggest among the number is %f",b);
+  
+    return 0;
+}
