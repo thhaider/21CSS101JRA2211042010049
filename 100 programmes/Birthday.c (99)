@@ -1,7 +1,0 @@
-#include<stdio.h>
-#define BIRTHDATE "10-07-2003"
-int main() 
-{
-printf("%s", BIRTHDATE);
-return 0;
-}
