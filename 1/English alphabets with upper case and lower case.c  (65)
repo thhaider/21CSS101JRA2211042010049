@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main()
 {
+    printf("RA2211042010049\n");
     char c;
     printf("Enter U to display uppercase alphabets.\n");
     printf("Enter L to display lowercase alphabets. \n");
