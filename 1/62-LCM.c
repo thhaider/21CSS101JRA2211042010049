@@ -4,7 +4,6 @@ int main()
     printf("RA2211042010049\n");
 
     int n1, n2, max;
-
     printf("Enter two positive integers: ");
     scanf("%d %d", &n1, &n2);
     max = (n1 > n2) ? n1 : n2;
