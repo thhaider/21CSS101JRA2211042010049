@@ -1,18 +1,17 @@
 
 #include <stdio.h>
 int main()
+    
 {
+    printf("RA2211042010049\n");
+    
     int n, count, sum = 0;
-
-    printf("Enter the value of n(positive integer): ");
+    printf("Enter the value of n positive integer: ");
     scanf("%d",&n);
-
-    for(count=1; count <= n; count++)
+    for(count=1; count <= n; count++)    
     {
         sum = sum + count;
     }
-
     printf("Sum of first %d natural numbers is: %d",n, sum);
-
     return 0;
 }
