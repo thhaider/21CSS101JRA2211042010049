@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main() 
 {
+    printf("RA2211042010049\n");
     char c;
     printf("Enter a character: ");
     scanf("%c", &c);
@@ -9,6 +10,5 @@ int main()
     printf("%c is an alphabet.", c);
     else
     printf("%c is not an alphabet.", c);
-
     return 0;
 }
