@@ -1,8 +1,9 @@
 #include <stdio.h>
-
-float main()
+int main()
 
 {
+    printf("RA2211042010049\n");
+    
     float simple_intrest,principle,rate,years;
     printf("enter the amount of principle\n");
     scanf("%f",&principle);
