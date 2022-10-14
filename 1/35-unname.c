@@ -1,6 +1,6 @@
 #include <stdio.h>
-
 int main()
+
 {
     int i,j;
     printf("enter end value : ");
@@ -9,5 +9,6 @@ int main()
     {
         printf("%d  ", i); 
     }
+    
     return 0;
 }
