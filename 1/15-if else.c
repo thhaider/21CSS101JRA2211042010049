@@ -3,6 +3,7 @@
 int main() 
 {
   printf("RA2211042010049\n");
+  
   int time = 24;
   if (time < 12)
   {
@@ -10,7 +11,8 @@ int main()
   } else if (time < 22) 
   {
     printf("Good day.");
-  } else 
+  } 
+  else 
   {
     printf("Good evening.");
   }
