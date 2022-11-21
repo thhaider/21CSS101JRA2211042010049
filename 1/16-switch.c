@@ -2,6 +2,8 @@
 
 int main() 
 {
+  printf("RA2211042010049\n");
+  
   int day = 7;
   
   switch (day)
