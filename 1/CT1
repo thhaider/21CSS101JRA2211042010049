@@ -1,0 +1,13 @@
+
+#include<stdio.h>
+int main()
+{
+printf("RA2211042010049\n");
+float speed, distance, time_taken;
+printf("Enter the distance in km between Ranchi and Delhi : ");
+scanf("%f", &distance);
+printf("What was your average speed for the whole trip? : ");
+scanf("%f", &speed);
+printf("Time taken (in mins) to reach Delhi from Ranchi = %f", time_taken=(distance/speed)*60);
+return 0;
+}
