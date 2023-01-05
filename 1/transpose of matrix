@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int x[100][100],r[100][100],i,j;
+    printf("Enter the value of 1 Matrix: \n");
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++) {
+            scanf("%d", &x[i][j]);
+        }
+        
+    }
+    //transpose
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+            r[j][i] = x[i][j];
+        }
+        
+    }
+    printf("\n result \n ");
+    for(i=0;i<3;i++){
+        for(j=0;j<3;j++){
+            printf("%d",r[i][j]);
+        }
+           printf("\n");
+    }
+
+    return 0;
+}
